@@ -399,9 +399,12 @@ section.title {
 }
 
 /* PART 1: low-fi */
-.sketch-img {
+.sketch-img, .wf-img {
   width: 270px;
 }
 .diversity-div {
   margin: 30px 0;
+}
+.wf-img {
+  border: 1px solid var(--mid-gray);
 }
