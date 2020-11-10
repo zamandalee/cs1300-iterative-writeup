@@ -1,14 +1,106 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
-  <head>
-    <title>INSERT TITLE HERE!</title>
-    <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <body>
-    <!-- TODO: put your HTML code here! -->
-  </body>
+  <title>A/B Testing</title>
+  <link rel="icon" href="./assets/img/favicon.png">
+
+  <link rel="stylesheet" href="./assets/index.css" />
+  <link href="https://cdn.bootcss.com/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <section data-aos="fade-up" data-aos-duration="1000" class="title">
+    <h1>Iterative Design of<br>Electry (a YC '20 startup)</h1>
+  </section>
+  <section id="Overview" data-aos="fade-up" data-aos-duration="1000" class="overview">
+    <h2>Overview</h2>
+    <div>
+      <p class="quote">
+        “some quote”
+      <p>
+        <span class="hl-yellow">Electry is pitched as “LinkedIn for skilled blue-collar workers.”</span>
+        Essentially, the platform is a job board to connect blue-collar workers with companies looking to hire them.
+        Companies publish job openings on the platform, workers to find opportunities that match their qualifications
+        and preferences,
+        then the companies can follow-up with applicants off-platform.
+
+        <br /><br />
+        For details, read on!
+    </div>
+    <div class="overview-info">
+      <div class="overview-item">
+        <p><strong>Type</strong></p>
+        <p>CS1300 UIUX project</p>
+      </div>
+      <div class="overview-item">
+        <p><strong>Date</strong></p>
+        <p>October 2020</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="Low-Fi" data-aos="fade-up" data-aos-duration="1000" class="grey">
+    <h3>Part 1</h3>
+    <h2>Low-Fi Sketches & Wireframes</h2>
+  </section>
+
+
+  <section id="Hi-Fi" data-aos="fade-up" data-aos-duration="1000">
+    <h3>Part 2</h3>
+    <h2>Hi-Fi Mockups</h2>
+
+    <h3>Initial Mockup</h3>
+    <p></p>
+    <ul>
+      <li></li>
+    </ul>
+
+    <h3>Critique Feedback</h3>
+    <h3>Final Mockup</h3>
+
+  </section>
+
+
+  <section id="User Testing" data-aos="fade-up" data-aos-duration="1000" class="grey">
+    <h3>Part 3</h3>
+    <h2>User Testing</h2>
+
+    <h3>Task</h3>
+    <p></p>
+    <ul>
+      <li></li>
+    </ul>
+
+    <h3>Post-Testing Questions</h3>
+    <h3>User Videos</h3>
+    <h3>Analysis</h3>
+  </section>
+
+
+  <section id="Takeaways" data-aos="fade-up" data-aos-duration="1000">
+    <h2>Takeaways</h2>
+    <p></p>
+  </section>
+
+
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/aos/2.3.4/aos.js"></script>
+  <script src="./scripts/pageSetUp.js"></script>
+  <script src="./scripts/projectPage.js"></script>
+  <script>
+    AOS.init();
+    function hover(element) {
+      element.setAttribute('src', './assets/img/mod_annotated.png');
+    }
+    function unhover(element) {
+      element.setAttribute('src', './assets/img/mod.png');
+    }
+  </script>
+</body>
+
 </html>
