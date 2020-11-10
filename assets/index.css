@@ -7,7 +7,6 @@
   --mid-gray: #bbbbbb;
   --light-gray: #e8e8e8;
   --light-yellow: #fce7b6;
-  --light-salmon: #fbc9c3;
   --bg-color-alt: #f8f8f9;
 }
 * {
@@ -197,12 +196,6 @@ sup {
   grid-row: 3;
 }
 /* COLORS */
-.hl-blue {
-  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, var(--light-blue) 60%);
-}
-.hl-salmon {
-  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, var(--light-salmon) 60%);
-}
 .hl-yellow {
   background: linear-gradient(180deg, rgba(255,255,255,0) 65%, var(--light-yellow) 60%);
 }
