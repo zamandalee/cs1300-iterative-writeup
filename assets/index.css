@@ -145,6 +145,9 @@ sup {
 .center {
   align-self: center;
 }
+.text-center {
+  text-align: center;
+}
 /* FLEX */
 .flex {
   display: flex;
@@ -167,6 +170,8 @@ sup {
   /* padding: 2vw 0 3vw 3vw; */
   display: grid;
   grid-gap: 30px;
+  align-items: center;
+  justify-content: center;
 }
 .grid p {
   margin-bottom: 0;
@@ -202,13 +207,15 @@ sup {
 .gray {
   color: var(--mid-gray);
 }
-.caption {
+.caption, .grid-caption {
   margin-top: 0.5em;
-  padding-bottom: 32px;
   text-align: center;
   font-size: 14px;
-  line-height: 160%;
   color: var(--mid-gray);
+}
+.caption {
+  line-height: 160%;
+  padding-bottom: 32px;
 }
 .quote {
   font-style: italic;
@@ -389,4 +396,12 @@ section.title {
   .outline>.item.active>.dot {
     opacity: .7;
   }
+}
+
+/* PART 1: low-fi */
+.sketch-img {
+  width: 270px;
+}
+.diversity-div {
+  margin: 30px 0;
 }
