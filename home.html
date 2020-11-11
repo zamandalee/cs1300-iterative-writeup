@@ -162,15 +162,163 @@
   <section id="Hi-Fi" data-aos="fade-up" data-aos-duration="1000">
     <h4>Part 2</h4>
     <h2>Hi-Fi Mockups</h2>
-
-    <h3>Initial Mockup</h3>
-    <p></p>
+    <p>
+      Based on the wireframes from Part 1, we created hi-fi prototypes via Figma.
+    </p>
+    <p><b>Notable Design Choices:</b></p>
     <ul>
-      <li></li>
+      <li>
+        Streamlines the job search process for both job seekers and recruiters 
+      </li>
+      <li>
+        Emphasizes essential information about each job through a succint profile building process
+      </li>
+      <li>
+        Provides personalized experience through onboarding, exploring job openings, and expressing interest
+      </li>
     </ul>
+    <h3>Initial Mockup</h3>
+    <div class="grid">
+      <h4 class="gr1 gc1 text-center">Home</h4>
+      <div class="gr1 gc2 flex-col">
+        <img class="wf-img" src="./assets/imgs/pre_home1.jpg">
+        <span class="grid-caption">Main home page</span>
+      </div>
+      <div class="gr1 gc3 flex-col">
+        <img class="wf-img" src="./assets/imgs/pre_home2.jpg">
+        <span class="grid-caption">Sign up page</span>
+      </div>
+      <div class="gr1 gc4 flex-col">
+        <img class="wf-img" src="./assets/imgs/pre_login.jpg">
+        <span class="grid-caption">Login page</span>
+      </div>
+
+      <h4 class="gr2 gc1 text-center">Onboarding and Profile Building</h4>
+      <div class="gr2 gc2 flex-col">
+        <img class="wf-img" src="./assets/imgs/pre_onboarding_employee.jpg">
+        <span class="grid-caption">Employee version</span>
+      </div>
+      <div class="gr2 gc3 flex-col">
+        <img class="wf-img" src="./assets/imgs/pre_onboarding_employer.jpg">
+        <span class="grid-caption">Employer version</span>
+      </div>
+      <div class="gr2 gc4 flex-col">
+        <img class="wf-img" src="./assets/imgs/pre_modal.jpg">
+        <span class="grid-caption">Modal for each category</span>
+      </div>
+
+      <h4 class="gr3 gc1 text-center">Jobs Search</h4>
+      <div class="gr3 gc2 flex-col">
+        <img class="wf-img" src="./assets/imgs/pre_search_employee.jpg">
+        <span class="grid-caption">Employee version</span>
+      </div>
+      <div class="gr3 gc3 flex-col">
+        <img class="wf-img" src="./assets/imgs/pre_search_employer.jpg">
+        <span class="grid-caption">Employer version</span>
+      </div>
+      <div class="gr3 gc4 flex-col">
+        <img class="wf-img" src="./assets/imgs/pre_companypage.jpg">
+        <span class="grid-caption">Company profile</span>
+      </div>
+    </div>
 
     <h3>Critique Feedback</h3>
+      <ol>
+        <li>
+          Onboarding can be done <span class="hl-yellow">sequentially and gamified</span>; <span class="hl-yellow">emphasizing progress through flow</span> makes it more engaging and less overwhelming 
+          <ul>
+            <li>
+              <b>Solution:</b> show <span class="hl-yellow">progress bar</span> at top, making questions simple as possible
+            </li>
+          </ul>
+        </li>
+        <li>
+          Onboarding modals feel <span class="hl-yellow">disconnected</span> from the main onboarding page 
+          <ul>
+            <li>
+              <b>Solution:</b> <span class="hl-yellow">manipulate opacity</span> to show the initial screen as the background
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span class="hl-yellow">Unintuitive</span> that clicking a job posting opens the Company Profile
+          <ul>
+            <li>
+              <b>Solution:</b> clicking on the job title <span class="hl-yellow">takes user to a modal</span> with job posting details
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span class="hl-yellow">Unclear flow</span> after user expresses interest in a job
+          <ul>
+            <li>
+              <b>Solution:</b> <span class="hl-yellow">Save feature</span> that populates jobs that the user has shared profiles to
+            </li>
+          </ul>
+        </li>
+        <li>
+          <b>Overall:</b> not enough pages to communicate both types of user experiences clearly 
+          <ul>
+            <li>
+              <b>Solution:</b> <span class="hl-yellow">focus on the experience of job-seekers only</span>
+            </li>
+          </ul>
+        </li>
+      </ol>
+      <p>
+        Based on the feedback, we chose to <span class="hl-yellow"><b>focus on employees and improve their job seeking experience.</b></span>
+      </p>
+
     <h3>Final Mockup</h3>
+    <div class="grid">
+      <h4 class="gr1 gc1 text-center">Home</h4>
+      <div class="gr1 gc2 flex-col">
+        <img class="wf-img" src="./assets/imgs/post_home.jpg">
+        <span class="grid-caption">Main home page</span>
+      </div>
+      <div class="gr1 gc3 flex-col">
+        <img class="wf-img" src="./assets/imgs/post_login.jpg">
+        <span class="grid-caption">Login Page</span>
+      </div>
+
+      <h4 class="gr2 gc1 text-center">Onboarding</h4>
+      <div class="gr2 gc2 flex-col">
+        <img class="wf-img" src="./assets/imgs/post_onboarding1.jpg">
+        <span class="grid-caption">Profile builder</span>
+      </div>
+      <div class="gr2 gc3 flex-col">
+        <img class="wf-img" src="./assets/imgs/post_onboarding2.jpg">
+        <span class="grid-caption">End of the flow, leads to personalized job results</span>
+      </div>
+
+
+      <h4 class="gr3 gc1 text-center">Jobs Search</h4>
+      <div class="gr3 gc2 flex-col">
+        <img class="wf-img" src="./assets/imgs/post_search_none.jpg">
+        <span class="grid-caption">Recommended jobs page</span>
+      </div>
+      <div class="gr3 gc3 flex-col">
+        <img class="wf-img" src="./assets/imgs/post_search_full.jpg">
+        <span class="grid-caption">Share profile to companies of interest</span>
+      </div>
+
+      <h4 class="gr4 gc1 text-center">Job and Company Profile</h4>
+      <div class="gr4 gc2 flex-col">
+        <img class="wf-img" src="./assets/imgs/post_modal.jpg">
+        <span class="grid-caption">Modal of job description: shown when the job title is clicked</span>
+      </div>
+      <div class="gr4 gc3 flex-col">
+        <img class="wf-img" src="./assets/imgs/post_company.jpg">
+        <span class="grid-caption">Company profile: opened when company name is clicked</span>
+      </div>
+      <h4 class="gr5 gc1 text-center">Saved Jobs</h4>
+      <div class="gr5 gc2 flex-col">
+        <img class="wf-img" src="./assets/imgs/post_myjobs.jpg">
+        <span class="grid-caption">My jobs page: lists all the jobs that user expressed interest</span>
+      </div>
+    </div>
+    <br><br>
+    <a href="https://www.figma.com/proto/9zWE6x0mnCTVEiDNhrxkcu/Electry-Mockup?node-id=269%3A74&scaling=scale-down">Click here to check out our interative prototype!</a>
 
   </section>
 
